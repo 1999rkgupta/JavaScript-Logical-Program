@@ -10,8 +10,8 @@ const result = JSON.stringify(person);
 console.log(result);
 console.log(typeof result);
 
-//! Convert object to string 2nd example
 
+//! Convert object to string 2nd example
 function convertToText(obj) {
   //create an array that will later be joined into a string.
   var string = [];
@@ -45,18 +45,18 @@ function convertToText(obj) {
 
 //!for.html 3rd example
 // // (A) THE OBJECT
-// var theobj = {
+// var theObj = {
 //   name : "John Doe",
 //   email : "john@doe.com",
 //   address : "123 Doe Street"
 // };
 
 // // (B) MANUAL FOR LOOP
-// var thestring = "";
-// for (let i in theobj) {
-//   thestring += i + ":" + theobj[i] + ", ";
+// var theString = "";
+// for (let i in theObj) {
+//   S += i + ":" + theObj[i] + ", ";
 // }
-// thestring = thestring.substring(0, thestring.length -2);
+// S = S.substring(0, S.length -2);
 
 // // name:John Doe, email:john@doe.com, address:123 Doe Street
-// console.log(thestring);
+// console.log(S);
